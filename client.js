@@ -14,8 +14,21 @@ let highsScore = 29;
 
 
 // 2. Make a new empty array called myScrabbleTiles.
-let myScrabbleTiles= [];
+let myScrabbleTiles = [];
 
+
+
+
+// A function to push the values on to the objects in the array
+function addTiles(letter,value){ 
+  // 
+  let addATile = {
+    letter: letter,
+    value: value
+  }
+
+  myScrabbleTiles.push(addATile);
+}
 
 // 3. Put these 6 tile objects into myScrabbleTiles:
 /*
@@ -26,20 +39,35 @@ let myScrabbleTiles= [];
   { tile: 'D', score: 2 }
   { tile: 'A', score: 1 }
 */
-//assigned myScrabbleTiles their alphabetic values
-myScrabbleTiles ['tile: "N", score: 1 ','tile: "K", score: 5 ','Z','X','D','A' ];
+
+// using addTiles to add the objects into the array
+
+addTiles('N', 1);
+addTiles('Z', 5);
+addTiles('Z', 10);
+addTiles('X', 8);
+addTiles('D', 2);
+addTiles('A', 1);
+
+console.log(myScrabbleTiles);
+
+
 
 // 4. Remove the last tile from myScrabbleTiles.
+// use pop to remove the last item in the array
+
+
 
 
 // 5. Add the following new tile to myScrabbleTiles:
 /*
   { tile: 'F', score : 4 }
 */
-
+// use addTiles function
 
 // 6. Complete this function. It needs to be given an array of tile objects. The function will use a for-loop and return the sum of all the scores in the given array.
-function sumTiles(anArray) {
+function sumTiles(anArray) { // MAKE SURE TO RETURN
+
 
 }
 
