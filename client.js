@@ -10,8 +10,12 @@ console.log('Step 0 complete! client.js loaded!');
 // Write your code here!
 
 // 1. Start with the number 29 and set that equal to a variable named ‘highScore’;
+let highsScore = 29;
+
 
 // 2. Make a new empty array called myScrabbleTiles.
+let myScrabbleTiles= [];
+
 
 // 3. Put these 6 tile objects into myScrabbleTiles:
 /*
@@ -22,6 +26,8 @@ console.log('Step 0 complete! client.js loaded!');
   { tile: 'D', score: 2 }
   { tile: 'A', score: 1 }
 */
+//assigned myScrabbleTiles their alphabetic values
+myScrabbleTiles ['tile: "N", score: 1 ','tile: "K", score: 5 ','Z','X','D','A' ];
 
 // 4. Remove the last tile from myScrabbleTiles.
 
@@ -30,6 +36,7 @@ console.log('Step 0 complete! client.js loaded!');
 /*
   { tile: 'F', score : 4 }
 */
+
 
 // 6. Complete this function. It needs to be given an array of tile objects. The function will use a for-loop and return the sum of all the scores in the given array.
 function sumTiles(anArray) {
