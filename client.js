@@ -72,10 +72,10 @@ function sumTiles(anArray) { // MAKE SURE TO RETURN
   let sum = 0;
   for(i=0;i<anArray.length;i++){
     sum = sum + anArray[i].score; //
-   return sum;
+  return sum;
 
   }
-//console.log(sum);
+console.log(sum);
 // even following along in class im not sure why this isnt working
 }
 // its outputting not a number and I think its trying to access the letter values in my scrabble tile array
