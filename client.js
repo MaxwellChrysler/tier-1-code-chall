@@ -21,11 +21,11 @@ console.log(myScrabbleTiles);
 
 // A function to push the values on to the objects in the array
 // I moved this function up here in an attempt to debug
-function addTiles(letter,value){ 
+function addTiles(letter,score){ 
   // 
   let addATile = {
     letter: letter,
-    value: value
+    score: score
   }
 
   myScrabbleTiles.push(addATile);
@@ -75,11 +75,11 @@ function sumTiles(anArray) { // MAKE SURE TO RETURN
    return sum;
 
   }
-console.log(sum);
+//console.log(sum);
 // even following along in class im not sure why this isnt working
 }
 // its outputting not a number and I think its trying to access the letter values in my scrabble tile array
-sumTiles(myScrabbleTiles);
+
 console.log(sumTiles(myScrabbleTiles));
 
 
