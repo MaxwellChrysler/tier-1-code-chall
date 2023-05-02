@@ -14,9 +14,9 @@ let highsScore = 29;
 
 
 // 2. Make a new empty array called myScrabbleTiles.
-let myScrabbleTiles = [];
+let myScrabbleTiles = 9;
 
-
+console.log(myScrabbleTiles);
 
 
 // A function to push the values on to the objects in the array
@@ -27,7 +27,7 @@ function addTiles(letter,value){
     value: value
   }
 
-  myScrabbleTiles.push(addATile);
+  //myScrabbleTiles.push(addATile);
 }
 
 // 3. Put these 6 tile objects into myScrabbleTiles:
@@ -64,6 +64,7 @@ console.log(myScrabbleTiles);
   { tile: 'F', score : 4 }
 */
 // use addTiles function
+addTiles('F', 4);
 
 // 6. Complete this function. It needs to be given an array of tile objects. The function will use a for-loop and return the sum of all the scores in the given array.
 function sumTiles(anArray) { // MAKE SURE TO RETURN
