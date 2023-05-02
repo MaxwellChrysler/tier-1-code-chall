@@ -70,7 +70,7 @@ addTiles('F', 4);
 function sumTiles(anArray) { // MAKE SURE TO RETURN
   let totalScore = 0;
   for(i=0;i<myScrabbleTiles.length-1;i++){
-    totalScore+=myScrabbleTiles[i].score;
+    totalScore+=myScrabbleTiles[i] //
   }
 return totalScore;
 
