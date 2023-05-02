@@ -81,12 +81,16 @@ return totalScore;
 
 
 // 8. Check whether or not your score is higher than the highScore.
+
+
 let totalScore = 0; 
 if (totalScore>highsScore){
   highsScore += myScore
 }
-else console.log(highscore);
+//else console.log(highscore);
 // 8-1 If your score is higher, change highScore to the new high score.
+
+
 
 
 // DONE!
