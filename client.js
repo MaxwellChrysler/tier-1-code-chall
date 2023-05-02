@@ -8,7 +8,7 @@ You’ve been given an index.html file and this starter js file.
 console.log('Step 0 complete! client.js loaded!');
             
 // Write your code here!
-
+/*  */
 // 1. Start with the number 29 and set that equal to a variable named ‘highScore’;
 let highsScore = 29;
 
@@ -20,6 +20,7 @@ console.log(myScrabbleTiles);
 
 
 // A function to push the values on to the objects in the array
+// I moved this function up here in an attempt to debug
 function addTiles(letter,value){ 
   // 
   let addATile = {
@@ -71,6 +72,7 @@ function sumTiles(anArray) { // MAKE SURE TO RETURN
   let totalScore = 0;
   for(i=0;i<myScrabbleTiles.length-1;i++){
     totalScore+=myScrabbleTiles[i] //
+
   }
 return totalScore;
 
@@ -87,7 +89,7 @@ let totalScore = 0;
 if (totalScore>highsScore){
   highsScore += myScore
 }
-//else console.log(highscore);
+//else console.log(highscore);  
 // 8-1 If your score is higher, change highScore to the new high score.
 
 
