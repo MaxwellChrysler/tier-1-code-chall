@@ -20,7 +20,6 @@ let myScrabbleTiles = [];
 // A function to push the values on to the objects in the array
 // I moved this function up here in an attempt to debug
 function addTiles(letter, score) {
-  // 
   let addATile = {
     letter: letter,
     score: score
@@ -67,14 +66,11 @@ addTiles('F', 4);
 // 6. Complete this function. It needs to be given an array of tile objects. The function will use a for-loop and return the sum of all the scores in the given array.
 function sumTiles(anArray) { // MAKE SURE TO RETURN
   let sum = 0;
-  for (i = 0; i < anArray.length; i++) {
+  for (let i = 0; i < anArray.length; i++) {
     sum = sum + anArray[i].score; //
     //return sum; This return stopped the loop from going on and the code just stopped because the return ended it from looping
-
   }
-  //console.log(sum);
    return sum;
-  // even following along in class im not sure why this isnt working 
 }
 
 console.log(sumTiles(myScrabbleTiles));
